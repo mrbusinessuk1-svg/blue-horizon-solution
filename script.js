@@ -1,1 +1,0 @@
-const btn=document.querySelector(".menu"),nav=document.querySelector("#nav");if(btn)btn.onclick=()=>nav.classList.toggle("open");document.querySelectorAll("#nav a").forEach(a=>a.onclick=()=>nav.classList.remove("open"));
